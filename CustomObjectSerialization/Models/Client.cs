@@ -18,6 +18,5 @@ namespace CustomObjectSerialization.Models
         
         [JsonIgnore]
         public string Password { get; set; }
-
     }
 }
