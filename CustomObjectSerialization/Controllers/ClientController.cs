@@ -10,7 +10,10 @@ namespace CustomObjectSerialization.Controllers
             new Client(){ ClientId = 1, Name = "Julio", LastName = "Avellaneda", City  = "Bogotá", Password = "123456"},
             new Client(){ ClientId = 1, Name = "Juan", LastName = "Ruiz", City  = "Bogotá", Password = "123456"}
         };
-
+            
+        /// <summary>
+        /// Retorna listado de clientes
+        /// </summary>
         public IEnumerable<Client> GetClients()
         {
             return clients;
